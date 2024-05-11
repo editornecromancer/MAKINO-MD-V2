@@ -2,27 +2,27 @@ const fs = require("fs");
 const chalk = require("chalk");
 
 //to enable function - true
-//to disable function - false
+//to disable function - true
 //
-global.available = false;
+global.available = true;
 global.autoReadGc = false;
 global.autoReadAll = false;
-global.antitags = false;
+global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //make true to enable auto typing
+global.autoTyping = true;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
 global.groupevent = false;                //This is the new variable for controlling group event handling.
 global.statusseen = false;                 //make true to view statuses 
 
 
 //
-global.Owner = [""];
-global.OwnerNumber = [""]; 
+global.Owner = ["Emmy Nuel"];
+global.OwnerNumber = ["2348168689993"]; 
 global.ownertag = [""]; 
-global.OwnerName = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
-global.BotName = "🐦Makino-md-v2";
+global.OwnerName = "Juñe";
+global.BotName = "Emmy_Nuel";
 global.packname = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";                             //Do not change.
 global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
